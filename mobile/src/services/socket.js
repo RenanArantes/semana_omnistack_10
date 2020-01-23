@@ -1,10 +1,10 @@
 import socketio from 'socket.io-client';
 
-const socket = socketio('http://192.168.1.5:3333', {
+const socket = socketio('http://192.168.0.103:3333', {
     autoConnect: false,
 });
 
-function subscribeToNewDevs(subcribeFunctions) {
+function subscribeToNewDevs(subcribeFunction) {
     socket.on('new-dev', subcribeFunction);
 }
 
