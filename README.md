@@ -7,5 +7,7 @@
 - Entre na pasta `cd omnistack10\backend` para executar a aplicação mobile.
 - Execute `yarn` para instalar as dependências.
 - Execute `yarn dev` para iniciar o servidor.
+
 <hr>
-<a href="https://github.com/Rocketseat/semana-omnistack-10"><h2> Projeto original </h2></a>
+
+Projeto original: https://github.com/Rocketseat/semana-omnistack-10
